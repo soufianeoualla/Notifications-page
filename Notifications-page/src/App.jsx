@@ -1,3 +1,14 @@
+import mark_webber from './assets/avatar-mark-webber.webp'
+import angela_gray from './assets/avatar-angela-gray.webp'
+import jacob_Thompson from './assets/avatar-jacob-thompson.webp'
+import Rizky_Hasanuddin from './assets/avatar-rizky-hasanuddin.webp'
+import Kimberly_Smith from './assets/avatar-kimberly-smith.webp'
+import image_chess from './assets/image-chess.webp'
+
+import Nathan_Peterson from './assets/avatar-nathan-peterson.webp'
+
+import Anna_Kim from './assets/avatar-anna-kim.webp'
+
 import { useState } from "react"
 
 const App = () => {
@@ -9,7 +20,7 @@ const App = () => {
             "id": "1",
             "author" : {
                 "name" : "Mark Webber",
-                "src": "./assets/avatar-mark-webber.webp",
+                "src": mark_webber,
                 "href" : "#"
                 
             },
@@ -25,8 +36,8 @@ const App = () => {
         {
             "id": "2",
             "author" : {
-                "name" : "Angela Gray",
-                "src": "./assets/avatar-angela-gray.webp",
+                "name" : 'Angela Gray',
+                "src": angela_gray,
                 "href" : "#"
             },
             "text" : "followed you",
@@ -38,7 +49,7 @@ const App = () => {
             "id": "3",
             "author" : {
                 "name" : "Jacob Thompson",
-                "src": "./assets/avatar-jacob-thompson.webp",
+                "src": jacob_Thompson,
                 "href" : "#"
             },
             "text" : "has joined your group",
@@ -53,7 +64,7 @@ const App = () => {
             "id": "4",
             "author" : {
                 "name" : "Rizky Hasanuddin",
-                "src": "./assets/avatar-rizky-hasanuddin.webp",
+                "src": Rizky_Hasanuddin,
                 "href" : "#"
             },
             "text" : "sent you a private message",
@@ -65,12 +76,12 @@ const App = () => {
             "id": "5",
             "author" : {
                 "name" : "Kimberly Smith ",
-                "src": "./assets/avatar-kimberly-smith.webp",
+                "src": Kimberly_Smith,
                 "href" : "#"
             },
             "text" : "commented on your picture",
            "picture" :{
-                'src': "./assets/image-chess.webp"
+                'src': image_chess
            },
             "date" : "1 week ago",
             'hasBeenRead' : true
@@ -79,7 +90,7 @@ const App = () => {
             "id": "6",
             "author" : {
                 "name" : "Nathan Peterson",
-                "src": "./assets/avatar-nathan-peterson.webp",
+                "src": Nathan_Peterson,
                 "href" : "#"
             },
             "text" : "reacted to your recent post",
@@ -95,7 +106,7 @@ const App = () => {
             "id": "7",
             "author" : {
                 "name" : "Anna Kim",
-                "src": "./assets/avatar-anna-kim.webp",
+                "src": Anna_Kim,
                 "href" : "#"
             },
             "text" : "left the group ",
