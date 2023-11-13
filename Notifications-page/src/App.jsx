@@ -9,7 +9,7 @@ const App = () => {
             "id": "1",
             "author" : {
                 "name" : "Mark Webber",
-                "src": "./src/assets/avatar-mark-webber.webp",
+                "src": "src/assets/avatar-mark-webber.webp",
                 "href" : "#"
                 
             },
