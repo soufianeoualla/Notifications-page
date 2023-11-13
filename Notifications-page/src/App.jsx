@@ -26,7 +26,7 @@ const App = () => {
             "id": "2",
             "author" : {
                 "name" : "Angela Gray",
-                "src": "./src/assets/avatar-angela-gray.webp",
+                "src": "./assets/avatar-angela-gray.webp",
                 "href" : "#"
             },
             "text" : "followed you",
@@ -38,7 +38,7 @@ const App = () => {
             "id": "3",
             "author" : {
                 "name" : "Jacob Thompson",
-                "src": "./src/assets/avatar-jacob-thompson.webp",
+                "src": "./assets/avatar-jacob-thompson.webp",
                 "href" : "#"
             },
             "text" : "has joined your group",
@@ -53,7 +53,7 @@ const App = () => {
             "id": "4",
             "author" : {
                 "name" : "Rizky Hasanuddin",
-                "src": "./src/assets/avatar-rizky-hasanuddin.webp",
+                "src": "./assets/avatar-rizky-hasanuddin.webp",
                 "href" : "#"
             },
             "text" : "sent you a private message",
@@ -65,12 +65,12 @@ const App = () => {
             "id": "5",
             "author" : {
                 "name" : "Kimberly Smith ",
-                "src": "./src/assets/avatar-kimberly-smith.webp",
+                "src": "./assets/avatar-kimberly-smith.webp",
                 "href" : "#"
             },
             "text" : "commented on your picture",
            "picture" :{
-                'src': "./src/assets/image-chess.webp"
+                'src': "./assets/image-chess.webp"
            },
             "date" : "1 week ago",
             'hasBeenRead' : true
@@ -79,7 +79,7 @@ const App = () => {
             "id": "6",
             "author" : {
                 "name" : "Nathan Peterson",
-                "src": "src/assets/avatar-nathan-peterson.webp",
+                "src": "./assets/avatar-nathan-peterson.webp",
                 "href" : "#"
             },
             "text" : "reacted to your recent post",
@@ -95,7 +95,7 @@ const App = () => {
             "id": "7",
             "author" : {
                 "name" : "Anna Kim",
-                "src": "./src/assets/avatar-anna-kim.webp",
+                "src": "./assets/avatar-anna-kim.webp",
                 "href" : "#"
             },
             "text" : "left the group ",
