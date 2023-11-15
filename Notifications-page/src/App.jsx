@@ -138,7 +138,7 @@ const App = () => {
     
     <div className="container">
     <div className="notification-top">
-        <h3>Notification  <span className="notification-number">{notifications.filter(n=> !n.hasBeenRead).length} </span> </h3>
+        <h3>Notification  <span className="notification-number">{isAllRead ? '0': notifications.filter(n=> !n.hasBeenRead).length} </span> </h3>
         <p onClick={()=>{setIsAllRead(true)}}>Mark all as read</p>
         </div>
     {notifications &&
